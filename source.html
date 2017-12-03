@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="">
+  <title data-ice="title">Source | crypto-api</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="Hashing and encrypting library with no depedencies"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="crypto-api"><meta property="twitter:description" content="Hashing and encrypting library with no depedencies"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  <a href="test.html" data-ice="testLink">Test</a>
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/nf404/crypto-api.git"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/crypto-api.js~CryptoApi.html">CryptoApi</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#encoder">encoder</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-toHex">toHex</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-fromUtf">fromUtf</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#hasher">hasher</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/hasher/has160.js~Has160.html">Has160</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/hasher/md2.js~Md2.html">Md2</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/hasher/md4.js~Md4.html">Md4</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/hasher/md5.js~Md5.html">Md5</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/hasher/ripemd.js~Ripemd.html">Ripemd</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/hasher/sha0.js~Sha0.html">Sha0</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/hasher/sha1.js~Sha1.html">Sha1</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/hasher/sha256.js~Sha256.html">Sha256</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/hasher/sha512.js~Sha512.html">Sha512</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/hasher/snefru.js~Snefru.html">Snefru</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/hasher/whirlpool.js~Whirlpool.html">Whirlpool</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-interface">I</span><span data-ice="name"><span><a href="class/src/hasher/hasher.js~Hasher.html">Hasher</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-interface">I</span><span data-ice="name"><span><a href="class/src/hasher/hasher32be.js~Hasher32be.html">Hasher32be</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-interface">I</span><span data-ice="name"><span><a href="class/src/hasher/hasher32le.js~Hasher32le.html">Hasher32le</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-interface">I</span><span data-ice="name"><span><a href="class/src/hasher/hasher8.js~Hasher8.html">Hasher8</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#mac">mac</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/mac/hmac.js~Hmac.html">Hmac</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#tools">tools</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-rotateLeft">rotateLeft</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-rotateRight">rotateRight</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-rotateRight64hi">rotateRight64hi</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-rotateRight64lo">rotateRight64lo</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1>Source <img data-ice="coverageBadge" src="./badge.svg"><span data-ice="totalCoverageCount" class="total-coverage-count">180/180</span></h1>
+
+<table class="files-summary" data-ice="files" data-use-coverage="true">
+  <thead>
+    <tr>
+      <td>File</td>
+      <td>Identifier</td>
+      <td class="coverage">Document</td>
+      <td style="display: none;">Size</td>
+      <td style="display: none;">Lines</td>
+      <td style="display: none;">Updated</td>
+    </tr>
+  </thead>
+  <tbody>
+    
+  <tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/crypto-api.js.html">src/crypto-api.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/src/crypto-api.js~CryptoApi.html">CryptoApi</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">7/7</span></td>
+      <td style="display: none;" data-ice="size">4423 byte</td>
+      <td style="display: none;" data-ice="lines">155</td>
+      <td style="display: none;" data-ice="updated">2017-12-01 17:18:12 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/encoder/hex.js.html">src/encoder/hex.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-toHex">toHex</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">1/1</span></td>
+      <td style="display: none;" data-ice="size">313 byte</td>
+      <td style="display: none;" data-ice="lines">16</td>
+      <td style="display: none;" data-ice="updated">2017-12-01 17:18:12 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/encoder/utf.js.html">src/encoder/utf.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-fromUtf">fromUtf</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">1/1</span></td>
+      <td style="display: none;" data-ice="size">1340 byte</td>
+      <td style="display: none;" data-ice="lines">41</td>
+      <td style="display: none;" data-ice="updated">2017-12-01 17:18:12 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/hasher/has160.js.html">src/hasher/has160.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/src/hasher/has160.js~Has160.html">Has160</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">9/9</span></td>
+      <td style="display: none;" data-ice="size">5302 byte</td>
+      <td style="display: none;" data-ice="lines">160</td>
+      <td style="display: none;" data-ice="updated">2017-12-01 17:18:12 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/hasher/hasher.js.html">src/hasher/hasher.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/src/hasher/hasher.js~Hasher.html">Hasher</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">18/18</span></td>
+      <td style="display: none;" data-ice="size">2652 byte</td>
+      <td style="display: none;" data-ice="lines">148</td>
+      <td style="display: none;" data-ice="updated">2017-12-01 17:18:12 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/hasher/hasher32be.js.html">src/hasher/hasher32be.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/src/hasher/hasher32be.js~Hasher32be.html">Hasher32be</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">8/8</span></td>
+      <td style="display: none;" data-ice="size">2083 byte</td>
+      <td style="display: none;" data-ice="lines">88</td>
+      <td style="display: none;" data-ice="updated">2017-12-01 17:18:12 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/hasher/hasher32le.js.html">src/hasher/hasher32le.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/src/hasher/hasher32le.js~Hasher32le.html">Hasher32le</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">7/7</span></td>
+      <td style="display: none;" data-ice="size">2024 byte</td>
+      <td style="display: none;" data-ice="lines">86</td>
+      <td style="display: none;" data-ice="updated">2017-12-01 17:18:12 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/hasher/hasher8.js.html">src/hasher/hasher8.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/src/hasher/hasher8.js~Hasher8.html">Hasher8</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">8/8</span></td>
+      <td style="display: none;" data-ice="size">1527 byte</td>
+      <td style="display: none;" data-ice="lines">75</td>
+      <td style="display: none;" data-ice="updated">2017-12-01 17:18:12 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/hasher/md2.js.html">src/hasher/md2.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/src/hasher/md2.js~Md2.html">Md2</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">5/5</span></td>
+      <td style="display: none;" data-ice="size">4458 byte</td>
+      <td style="display: none;" data-ice="lines">131</td>
+      <td style="display: none;" data-ice="updated">2017-12-01 17:18:12 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/hasher/md4.js.html">src/hasher/md4.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/src/hasher/md4.js~Md4.html">Md4</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">12/12</span></td>
+      <td style="display: none;" data-ice="size">6444 byte</td>
+      <td style="display: none;" data-ice="lines">209</td>
+      <td style="display: none;" data-ice="updated">2017-12-01 17:18:12 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/hasher/md5.js.html">src/hasher/md5.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/src/hasher/md5.js~Md5.html">Md5</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">11/11</span></td>
+      <td style="display: none;" data-ice="size">7885 byte</td>
+      <td style="display: none;" data-ice="lines">236</td>
+      <td style="display: none;" data-ice="updated">2017-12-01 17:18:12 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/hasher/ripemd.js.html">src/hasher/ripemd.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/src/hasher/ripemd.js~Ripemd.html">Ripemd</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">20/20</span></td>
+      <td style="display: none;" data-ice="size">13151 byte</td>
+      <td style="display: none;" data-ice="lines">513</td>
+      <td style="display: none;" data-ice="updated">2017-12-01 17:18:12 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/hasher/sha0.js.html">src/hasher/sha0.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/src/hasher/sha0.js~Sha0.html">Sha0</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">6/6</span></td>
+      <td style="display: none;" data-ice="size">3722 byte</td>
+      <td style="display: none;" data-ice="lines">131</td>
+      <td style="display: none;" data-ice="updated">2017-12-01 17:18:12 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/hasher/sha1.js.html">src/hasher/sha1.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/src/hasher/sha1.js~Sha1.html">Sha1</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">6/6</span></td>
+      <td style="display: none;" data-ice="size">3715 byte</td>
+      <td style="display: none;" data-ice="lines">131</td>
+      <td style="display: none;" data-ice="updated">2017-12-01 17:18:12 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/hasher/sha256.js.html">src/hasher/sha256.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/src/hasher/sha256.js~Sha256.html">Sha256</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">6/6</span></td>
+      <td style="display: none;" data-ice="size">5573 byte</td>
+      <td style="display: none;" data-ice="lines">169</td>
+      <td style="display: none;" data-ice="updated">2017-12-01 17:18:12 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/hasher/sha512.js.html">src/hasher/sha512.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/src/hasher/sha512.js~Sha512.html">Sha512</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">8/8</span></td>
+      <td style="display: none;" data-ice="size">11507 byte</td>
+      <td style="display: none;" data-ice="lines">276</td>
+      <td style="display: none;" data-ice="updated">2017-12-01 17:18:12 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/hasher/snefru.js.html">src/hasher/snefru.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/src/hasher/snefru.js~Snefru.html">Snefru</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">16/16</span></td>
+      <td style="display: none;" data-ice="size">74408 byte</td>
+      <td style="display: none;" data-ice="lines">1176</td>
+      <td style="display: none;" data-ice="updated">2017-12-01 17:18:12 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/hasher/whirlpool.js.html">src/hasher/whirlpool.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/src/hasher/whirlpool.js~Whirlpool.html">Whirlpool</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">21/21</span></td>
+      <td style="display: none;" data-ice="size">9382 byte</td>
+      <td style="display: none;" data-ice="lines">308</td>
+      <td style="display: none;" data-ice="updated">2017-12-01 17:18:12 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/mac/hmac.js.html">src/mac/hmac.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/src/mac/hmac.js~Hmac.html">Hmac</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">6/6</span></td>
+      <td style="display: none;" data-ice="size">2727 byte</td>
+      <td style="display: none;" data-ice="lines">96</td>
+      <td style="display: none;" data-ice="updated">2017-12-01 17:18:12 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/tools/tools.js.html">src/tools/tools.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-rotateLeft">rotateLeft</a></span>
+<span><a href="function/index.html#static-function-rotateRight">rotateRight</a></span>
+<span><a href="function/index.html#static-function-rotateRight64hi">rotateRight64hi</a></span>
+<span><a href="function/index.html#static-function-rotateRight64lo">rotateRight64lo</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">4/4</span></td>
+      <td style="display: none;" data-ice="size">1117 byte</td>
+      <td style="display: none;" data-ice="lines">59</td>
+      <td style="display: none;" data-ice="updated">2017-12-01 17:18:12 (UTC)</td>
+    </tr>
+</tbody>
+</table>
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.0.4)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>
